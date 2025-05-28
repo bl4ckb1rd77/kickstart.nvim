@@ -120,6 +120,7 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 -- easy save and close buffer
+vim.keymap.set('n', '<leader>n', '<cmd>enew<cr>')
 vim.keymap.set('n', '<leader>w', '<cmd>w<CR>')
 vim.keymap.set('n', '<leader>c', '<cmd>bd<CR>')
 vim.keymap.set('n', '<leader>o', '<cmd>Neotree toggle<CR>')
